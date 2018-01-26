@@ -2,9 +2,10 @@
 <Context>
     <WatchedResource>WEB-INF/web.xml</WatchedResource>
     <Manager className="com.amazonaws.services.dynamodb.sessionmanager.DynamoDBSessionManager"
-             awsAccessKey="AKIAIRVWJSCADETSN7LQ"
-             awsSecretKey="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"
+             awsAccessKey="AKIAJOPDILZSN5GIENWQ"
+             awsSecretKey="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"
              table="productionTable"
+             RegionId="us-west-2"
              createIfNotExist="true"
     />
 </Context>
