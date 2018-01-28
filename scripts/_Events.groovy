@@ -7,8 +7,10 @@ eventCompileStart = {
 //    if (grails.util.Environment.current.name == "production") {
     println("*********=========== Session Script ============************")
     println("*********===========basedir ============****${basedir}********")
-        ant.copy(tofile: "${basedir}/web-app/META-INF/context.xml") {
-            fileset(file: "${basedir}/context-prod.xml")
-        }
+//        ant.copy(tofile: "${basedir}/web-app/META-INF/context.xml") {
+//            fileset(file: "${basedir}/context-prod.xml")
+//        }
 //    }
+    println("*********===========end ============***********")
+
 }
